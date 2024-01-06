@@ -1,3 +1,4 @@
+// functions for expanding images
 function showImage(src) {
     var expanded_img_element = document.getElementById("expanded_img");
     var image_element = document.getElementById("image");
@@ -9,3 +10,6 @@ function showImage(src) {
     var expanded_img_element = document.getElementById("expanded_img");
     expanded_img_element.style.display = "none";
   }
+
+// functions for slides
+
