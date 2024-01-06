@@ -1,3 +1,33 @@
+.bg-img {
+    background-image: url(Bridgefoto.jpg);
+    min-height: 380px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+/* Nav */
+.navbar  {
+    font: normal 300 .8em'Open Sans', sans-serif;
+    overflow-x:hidden;
+}
+a {
+    text-align: left;
+    width: 100%;
+    background-color: #999;
+    height: 20px;
+}
+a {
+    display:inline;
+}
+.phone{
+    float: right;
+}
+
+
+
+
 /* Gallery */
 .image_gallery{
     margin: 10px 50px;
@@ -42,45 +72,20 @@
     cursor: pointer;
   }
 
-/* team photo carousel */
-/* Three columns side by side */
-.column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  
-  /* Add some shadows to create a card effect */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Some left and right padding inside the container */
-  .container {
-    padding: 0 16px;
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
+/* Meet the Team */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(152, 152, 152, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
   }
   
   .title {
     color: grey;
+    font-size: 18px;
   }
   
-  .button {
+  button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -90,10 +95,17 @@
     text-align: center;
     cursor: pointer;
     width: 100%;
+    font-size: 18px;
   }
   
-  .button:hover {
-    background-color: #555;
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
   }
 
 
