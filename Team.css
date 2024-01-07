@@ -73,6 +73,13 @@ a {
   }
 
 /* Meet the Team */
+
+.parent{
+  min-width: fit-content;
+  min-height: fit-content;
+}
+
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(152, 152, 152, 0.2);
     max-width: 300px;
