@@ -1,5 +1,9 @@
 
 /* css for image background image on header. */
+body{
+  margin: 0px;
+ }
+
 .bg-img {
   background-image: url(Bridgefoto.jpg);
   min-height: 380px;
