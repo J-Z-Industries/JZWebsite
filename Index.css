@@ -45,7 +45,13 @@ body{
         left: 0pt;
     }    */
     
- 
+ /* Css for services */
+
+#ServicesImgs{
+  background-color: rgb(255, 255, 255);
+  max-width: 250px;
+}
+
 /* css for image gallery */
 .image_gallery{
   margin: 10px 50px;
