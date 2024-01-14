@@ -99,6 +99,55 @@ body{
 /* Carousel */
 
 
+  .imgc1{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    margin:auto;
+    width: 100%;
+  }
+
+  .imgc2{
+    display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  margin:auto;
+  width: 100%;
+  }
+
+  #imgc3{
+    display: center;
+    max-height: 400px;
+    max-width: 50%;
+    line-height: 1;
+    margin:auto;
+    width: 100%;
+  }
+
+  #carouselCountainer{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .carousel-inner {
+    background-color: black !important;
+    }
+
+/* Modal Popup size */
+.modal-dialog,
+.modal-content {
+    /* 80% of window height */
+    height: 80%;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+
     /* footer */
     .footer-clean {
       padding:50px 0;
